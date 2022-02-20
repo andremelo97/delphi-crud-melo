@@ -1,0 +1,37 @@
+object dmCliente: TdmCliente
+  OldCreateOrder = False
+  Height = 274
+  Width = 408
+  object sqlPesquisar: TSQLDataSet
+    Params = <>
+    Left = 40
+    Top = 40
+  end
+  object sqlAlterar: TSQLDataSet
+    Params = <>
+    Left = 176
+    Top = 40
+  end
+  object sqlInserir: TSQLDataSet
+    Params = <>
+    Left = 112
+    Top = 48
+  end
+  object sqlExcluir: TSQLDataSet
+    Params = <>
+    Left = 256
+    Top = 48
+  end
+  object dspPesquisar: TDataSetProvider
+    DataSet = sqlPesquisar
+    Left = 32
+    Top = 120
+  end
+  object cdsPesquisar: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    ProviderName = 'dspPesquisar'
+    Left = 32
+    Top = 192
+  end
+end

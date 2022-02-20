@@ -1,0 +1,45 @@
+object dmCliente: TdmCliente
+  OldCreateOrder = False
+  Height = 274
+  Width = 408
+  object sqlPesquisar: TSQLDataSet
+    MaxBlobSize = -1
+    Params = <>
+    SQLConnection = DmConexao.sqlConexao
+    Left = 40
+    Top = 40
+  end
+  object sqlAlterar: TSQLDataSet
+    MaxBlobSize = -1
+    Params = <>
+    SQLConnection = DmConexao.sqlConexao
+    Left = 176
+    Top = 40
+  end
+  object sqlInserir: TSQLDataSet
+    MaxBlobSize = -1
+    Params = <>
+    SQLConnection = DmConexao.sqlConexao
+    Left = 112
+    Top = 48
+  end
+  object sqlExcluir: TSQLDataSet
+    MaxBlobSize = -1
+    Params = <>
+    SQLConnection = DmConexao.sqlConexao
+    Left = 256
+    Top = 48
+  end
+  object dspPesquisar: TDataSetProvider
+    DataSet = sqlPesquisar
+    Left = 32
+    Top = 120
+  end
+  object cdsPesquisar: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    ProviderName = 'dspPesquisar'
+    Left = 32
+    Top = 192
+  end
+end

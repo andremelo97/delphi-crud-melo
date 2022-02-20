@@ -1,0 +1,128 @@
+object dmCliente: TdmCliente
+  OldCreateOrder = False
+  Height = 274
+  Width = 408
+  object sqlPesquisar: TSQLDataSet
+    CommandText = 
+      'SELECT ID_CLIENTE, NOME, TELEFONE'#13#10'FROM CLIENTES'#13#10'WHERE (NOME LI' +
+      'KE :NOME)'
+    MaxBlobSize = -1
+    Params = <
+      item
+        DataType = ftString
+        Name = 'NOME'
+        ParamType = ptInput
+      end>
+    SQLConnection = DmConexao.sqlConexao
+    Left = 40
+    Top = 40
+  end
+  object sqlAlterar: TSQLDataSet
+    CommandText = 
+      'update CLIENTES'#13#10'      set NOME = :NOME,'#13#10'          TIPO = :TIPO' +
+      ','#13#10'          DOCUMENTO = :DOCUMENTO,'#13#10'          TELEFONE = :TELE' +
+      'FONE'#13#10'      where (ID_CLIENTE = :ID_CLIENTE)'
+    MaxBlobSize = -1
+    Params = <
+      item
+        DataType = ftString
+        Name = 'NOME'
+        ParamType = ptInput
+      end
+      item
+        DataType = ftString
+        Name = 'TIPO'
+        ParamType = ptInput
+      end
+      item
+        DataType = ftString
+        Name = 'DOCUMENTO'
+        ParamType = ptInput
+      end
+      item
+        DataType = ftString
+        Name = 'TELEFONE'
+        ParamType = ptInput
+      end
+      item
+        DataType = ftInteger
+        Name = 'ID_CLIENTE'
+        ParamType = ptInput
+      end>
+    SQLConnection = DmConexao.sqlConexao
+    Left = 176
+    Top = 40
+  end
+  object sqlInserir: TSQLDataSet
+    CommandText = 
+      'insert into CLIENTES (ID_CLIENTE, NOME, TIPO, DOCUMENTO, TELEFON' +
+      'E)'#13#10' values (:ID_CLIENTE, :NOME, :TIPO, :DOCUMENTO, :TELEFONE)'
+    MaxBlobSize = -1
+    Params = <
+      item
+        DataType = ftInteger
+        Name = 'ID_CLIENTE'
+        ParamType = ptInput
+      end
+      item
+        DataType = ftString
+        Name = 'NOME'
+        ParamType = ptInput
+      end
+      item
+        DataType = ftString
+        Name = 'TIPO'
+        ParamType = ptInput
+      end
+      item
+        DataType = ftString
+        Name = 'DOCUMENTO'
+        ParamType = ptInput
+      end
+      item
+        DataType = ftString
+        Name = 'TELEFONE'
+        ParamType = ptInput
+      end>
+    SQLConnection = DmConexao.sqlConexao
+    Left = 112
+    Top = 48
+  end
+  object sqlExcluir: TSQLDataSet
+    MaxBlobSize = -1
+    Params = <>
+    SQLConnection = DmConexao.sqlConexao
+    Left = 256
+    Top = 48
+  end
+  object dspPesquisar: TDataSetProvider
+    DataSet = sqlPesquisar
+    Left = 32
+    Top = 120
+  end
+  object cdsPesquisar: TClientDataSet
+    Aggregates = <>
+    Params = <
+      item
+        DataType = ftString
+        Name = 'NOME'
+        ParamType = ptInput
+      end>
+    ProviderName = 'dspPesquisar'
+    Left = 32
+    Top = 192
+    object cdsPesquisarID_CLIENTE: TIntegerField
+      FieldName = 'ID_CLIENTE'
+      Required = True
+    end
+    object cdsPesquisarNOME: TStringField
+      FieldName = 'NOME'
+      Required = True
+      Size = 320
+    end
+    object cdsPesquisarTELEFONE: TStringField
+      FieldName = 'TELEFONE'
+      Size = 40
+    end
+  end
+end

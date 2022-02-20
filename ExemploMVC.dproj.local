@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/01/25 10:30:19.000.984,=C:\Users\Andre Melo\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/02/17 10:07:03.000.686,=C:\Users\Andre Melo\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/02/17 10:07:57.000.702,C:\Users\Andre Melo\OneDrive\Documents\Cursos\DELPHI\Delphi CRUD MVC DAO DBExpress\view\uFrmPrincipal.pas=C:\Users\Andre Melo\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/02/17 10:07:57.000.702,C:\Users\Andre Melo\OneDrive\Documents\Cursos\DELPHI\Delphi CRUD MVC DAO DBExpress\view\uFrmPrincipal.dfm=C:\Users\Andre Melo\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/02/17 10:08:13.000.628,C:\Users\Andre Melo\OneDrive\Documents\Cursos\DELPHI\Delphi CRUD MVC DAO DBExpress\ExemploMVC.dproj=C:\Users\Andre Melo\OneDrive\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/02/17 10:09:23.000.449,=C:\Users\Andre Melo\OneDrive\Documents\Cursos\DELPHI\Delphi CRUD MVC DAO DBExpress\Unit1.pas</Transaction>
+    <Transaction>2022/02/17 10:09:46.000.675,C:\Users\Andre Melo\OneDrive\Documents\Cursos\DELPHI\Delphi CRUD MVC DAO DBExpress\view\uFrmCadastrarCliente.pas=C:\Users\Andre Melo\OneDrive\Documents\Cursos\DELPHI\Delphi CRUD MVC DAO DBExpress\Unit1.pas</Transaction>
+    <Transaction>2022/02/17 10:09:46.000.675,C:\Users\Andre Melo\OneDrive\Documents\Cursos\DELPHI\Delphi CRUD MVC DAO DBExpress\view\uFrmCadastrarCliente.dfm=C:\Users\Andre Melo\OneDrive\Documents\Cursos\DELPHI\Delphi CRUD MVC DAO DBExpress\Unit1.dfm</Transaction>
+    <Transaction>2022/02/17 11:09:37.000.650,=C:\Users\Andre Melo\OneDrive\Documents\Cursos\DELPHI\Delphi CRUD MVC DAO DBExpress\Unit1.pas</Transaction>
+    <Transaction>2022/02/17 11:09:48.000.278,C:\Users\Andre Melo\OneDrive\Documents\Cursos\DELPHI\Delphi CRUD MVC DAO DBExpress\Unit1.pas=C:\Users\Andre Melo\OneDrive\Documents\Cursos\DELPHI\Delphi CRUD MVC DAO DBExpress\model\uClienteModel.pas</Transaction>
+    <Transaction>2022/02/17 11:18:06.000.279,=C:\Users\Andre Melo\OneDrive\Documents\Cursos\DELPHI\Delphi CRUD MVC DAO DBExpress\Unit1.pas</Transaction>
+    <Transaction>2022/02/17 11:18:15.000.108,C:\Users\Andre Melo\OneDrive\Documents\Cursos\DELPHI\Delphi CRUD MVC DAO DBExpress\Unit1.pas=C:\Users\Andre Melo\OneDrive\Documents\Cursos\DELPHI\Delphi CRUD MVC DAO DBExpress\controller\uClienteController.pas</Transaction>
+    <Transaction>2022/02/17 18:45:12.000.156,=C:\Users\Andre Melo\OneDrive\Documents\Cursos\DELPHI\Delphi CRUD MVC DAO DBExpress\Unit1.pas</Transaction>
+    <Transaction>2022/02/17 18:50:41.000.760,C:\Users\Andre Melo\OneDrive\Documents\Cursos\DELPHI\Delphi CRUD MVC DAO DBExpress\dao\uDmConexao.dfm=C:\Users\Andre Melo\OneDrive\Documents\Cursos\DELPHI\Delphi CRUD MVC DAO DBExpress\Unit1.dfm</Transaction>
+    <Transaction>2022/02/17 18:50:41.000.760,C:\Users\Andre Melo\OneDrive\Documents\Cursos\DELPHI\Delphi CRUD MVC DAO DBExpress\dao\uDmConexao.pas=C:\Users\Andre Melo\OneDrive\Documents\Cursos\DELPHI\Delphi CRUD MVC DAO DBExpress\Unit1.pas</Transaction>
+    <Transaction>2022/02/19 14:09:31.000.320,=C:\Users\Melo\Documents\Delphi CRUD MVC DAO DBExpress\Unit1.pas</Transaction>
+    <Transaction>2022/02/19 14:09:58.000.409,C:\Users\Melo\Documents\Delphi CRUD MVC DAO DBExpress\dao\uDmCliente.pas=C:\Users\Melo\Documents\Delphi CRUD MVC DAO DBExpress\Unit1.pas</Transaction>
+    <Transaction>2022/02/19 14:09:58.000.409,C:\Users\Melo\Documents\Delphi CRUD MVC DAO DBExpress\dao\uDmCliente.dfm=C:\Users\Melo\Documents\Delphi CRUD MVC DAO DBExpress\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

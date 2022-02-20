@@ -1,0 +1,57 @@
+unit uClienteController;
+
+interface
+
+uses
+  uClienteModel, uDmCliente;
+
+type
+  TClienteController = class
+  public
+    constructor Create;
+    function Inserir(oCliente: TCliente; var sErro: string): Boolean;
+    function Alterar(oCliente: TCliente; out sErro: string): Boolean;
+    function Excluir(iCodigo: Integer; out sErro: string): Boolean;
+    procedure CarregarCliente(oCliente: TCliente; iCodigo: Integer);
+    procedure Pesquisar(sNome: string);
+  end;
+
+implementation
+
+{ TClienteController }
+
+function TClienteController.Alterar(oCliente: TCliente;
+  out sErro: string): Boolean;
+begin
+  Result := DmCliente.Alterar(oCliente, sErro);
+end;
+
+procedure TClienteController.CarregarCliente(oCliente: TCliente;
+  iCodigo: Integer);
+begin
+  DmCliente.CarregarCliente(oCliente, iCodigo);
+end;
+
+constructor TClienteController.Create;
+begin
+
+end;
+
+function TClienteController.Excluir(iCodigo: Integer;
+  out sErro: string): Boolean;
+begin
+  Result := DmCliente.Excluir(iCodigo, sErro);
+end;
+
+function TClienteController.Inserir(oCliente: TCliente;
+  var sErro: string): Boolean;
+begin
+  Result := DmCliente.Inserir(oCliente, sErro);
+end;
+
+procedure TClienteController.Pesquisar(sNome: string);
+begin
+  DmCliente.Pesquisar(sNome);
+end;
+
+end.

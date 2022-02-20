@@ -1,0 +1,26 @@
+object DmConexao: TDmConexao
+  OldCreateOrder = False
+  Height = 242
+  Width = 373
+  object SQLConnection1: TSQLConnection
+    DriverName = 'UIB FireBird15'
+    Params.Strings = (
+      'GetDriverFunc=getSQLDriverINTERBASE'
+      'LibraryName=dbexpUIBfire15.dll'
+      'VendorLib=fbclient.dll'
+      'BlobSize=-1'
+      'CommitRetain=False'
+      'Database=F:\melo_db\DADOS.FDB'
+      'ErrorResourceFile='
+      'LocaleCode=0000'
+      'Password=masterkey'
+      'RoleName=RoleName'
+      'ServerCharSet='
+      'SQLDialect=3'
+      'Interbase TransIsolation=ReadCommited'
+      'User_Name=SYSDBA'
+      'WaitOnLocks=True')
+    Left = 40
+    Top = 72
+  end
+end
